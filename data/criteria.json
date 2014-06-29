@@ -1,0 +1,14 @@
+[
+	{
+		"principle":"The dataset should be freely available for non-commerical use to any user, without the need to request permission from the distributor.",
+		"key":"nonprofit",
+		"shortTitle": "Non-Commercial Use",
+		"importance":"When data sets require users to request permission for use, it creates hindrances to the easy evaluation and experimentation, and limits the range of applications which can make use of the data."
+	},
+	{
+		"principle":"The dataset should be freely available for commerical use to any user, without the need to request permission from the distributor.",
+		"key":"commercial",
+		"shortTitle": "Commerical Use",
+		"importance":"Commerical users create some of the most dynamic and value-creating applications from geographic data (e.g. Google Maps/Directions, Yelp, Foursquare, etc.) - limiting commerical access to boundary data prevents all members of society from benefiting from these types of creations. Limiting commerical access also prevents consulting firms from gaining profit by using the data, even when building applications for governments and non-profit agencies."
+	}
+]

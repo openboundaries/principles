@@ -1,0 +1,20 @@
+[
+	{
+		"name":"Example",
+		"url":"http://www.gadm.org/",
+		"ratings": {
+			"nonprofit":{
+				"rating": "good",
+				"rationale": ""
+			},
+			"commercial": {
+				"rating": "needs improvement",
+				"rationale": "License agreement forbigs commerical use."
+			},
+			"redistrib": {
+				"rating": "needs improvement",
+				"rationale": "License agreement forbids redistribution."
+			}
+		}
+	}
+]
