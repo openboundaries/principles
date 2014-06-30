@@ -2,10 +2,10 @@
 
 var CRITERIA_DIV_ID = '#criteria',
 	RATINGS_DIV_ID = '#ratings',
-	bulletTemplate = _.template('<li><strong><%=shortTitle%></strong>: <%=principle%></li>'),
+	bulletTemplate = _.template('<li><strong><span class="criteria"><%=shortTitle%></span></strong>: <%=principle%></li>'),
 	sourceTitleTemplate = _.template('<td><a href="<%=url%>"><%=name%></a></td>'),
-	ratingsTemplate = _.template('<td title="<%=rationale%>" class=" <% if (rating === \'good\' ) { %> success <%} else if (rating === \'ok\') {%>warning<%} else if (rating === \'needs improvement\') {%>danger<%}%>"><%=rating%></td>'),
-	ratingsHeaderTemplate = _.template('<th><%=shortTitle%></th>');
+	ratingsTemplate = _.template('<td title="<%if(rationale) {%><%=rationale%>"<%} else {%>Not yet rated<%}%>" class=" <% if (rating === \'good\' ) { %> success <%} else if (rating === \'ok\') {%>warning<%} else if (rating === \'needs improvement\') {%>danger<%}%>"><%=rating%></td>'),
+	ratingsHeaderTemplate = _.template('<th title="<%=principle%>"><%=shortTitle%></th>');
 
 //load criteria and data source data from json files and use to render markup
 loadJson('./data/criteria.json', function(criteria) {
@@ -32,7 +32,12 @@ loadJson('./data/criteria.json', function(criteria) {
 			var row = $('<tr></tr>');
 			row.append(sourceTitleTemplate(source));
 			_.each(criteriaKeys, function(key) {
-				row.append(ratingsTemplate(source.ratings[key]));
+				if (source.ratings[key]) {
+					row.append(ratingsTemplate(source.ratings[key]));
+				}
+				else {
+					row.append('<td title="Not yet rated"></td>');
+				}
 			});
 			row.appendTo(ratingTable);
 		})

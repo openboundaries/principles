@@ -1,6 +1,6 @@
 [
 	{
-		"name":"Example",
+		"name":"GADM",
 		"url":"http://www.gadm.org/",
 		"ratings": {
 			"nonprofit":{
@@ -11,9 +11,243 @@
 				"rating": "needs improvement",
 				"rationale": "License agreement forbids commerical use."
 			},
-			"redistrib": {
+			"modify":{
+				"rating":"needs improvement",
+				"rationale":"License agreement forbids modification."
+			},
+			"redistribute": {
 				"rating": "needs improvement",
 				"rationale": "License agreement forbids redistribution."
+			},
+			"ids":{
+				"rating":"ok",
+				"rationale":"Distributed with unique feature IDs, but unclear if these are consistent across versions or are an artifact of the data creation process (further research needed)."
+			},
+			"versions":{
+				"rating":"ok",
+				"rationale":"Versions released regularly with good change notes, but no clear access to historical versions."
+			},
+			"contribute":{
+				"rating":"ok",
+				"rationale":"Anecdotally the publisher is very open to suggested changes, but no clearly articulated process exists (further research needed)."
+			},
+			"boundaries":{
+				"rating":"good",
+				"rationale":"The boundary data are provided for each adminsitrative area."
+			},
+			"format":{
+				"rating":"ok",
+				"rationale":"Not actually sure. Mostly available in ESRI formats but also R and KML. Do R and KML count as an open format? Do we want to have 'preferred' open formats? (further research clearly needed)."
+			}
+		}
+	},
+	{
+		"name":"GAUL",
+		"url":"http://data.fao.org/map?entryId=f7e7adb0-88fd-11da-a88f-000d939bc5d8",
+		"ratings":{
+			"nonprofit":{
+				"rating":"",
+				"rationale":""
+			},
+			"commercial":{
+				"rating":"",
+				"rationale":""
+			},
+			"modify":{
+				"rating":"",
+				"rationale":""
+			},
+			"redistribute":{
+				"rating":"",
+				"rationale":""
+			},
+			"ids":{
+				"rating":"",
+				"rationale":""
+			},
+			"versions":{
+				"rating":"",
+				"rationale":""
+			},
+			"contribute":{
+				"rating":"",
+				"rationale":""
+			},
+			"boundaries":{
+				"rating":"",
+				"rationale":""
+			},
+			"format":{
+				"rating":"",
+				"rationale":""
+			}
+		}
+	},
+	{
+		"name":"UNSALB",
+		"url":"http://www.unsalb.org/",
+		"ratings":{
+			"nonprofit":{
+				"rating":"",
+				"rationale":""
+			},
+			"commercial":{
+				"rating":"",
+				"rationale":""
+			},
+			"modify":{
+				"rating":"",
+				"rationale":""
+			},
+			"redistribute":{
+				"rating":"needs improvement",
+				"rationale":"Users do not have the right to redistribute and the current website is permanently down. Showcases why redistribution rights are important!"
+			},
+			"ids":{
+				"rating":"",
+				"rationale":""
+			},
+			"versions":{
+				"rating":"",
+				"rationale":""
+			},
+			"contribute":{
+				"rating":"",
+				"rationale":""
+			},
+			"boundaries":{
+				"rating":"",
+				"rationale":""
+			},
+			"format":{
+				"rating":"",
+				"rationale":""
+			}
+		}
+	},
+	{
+		"name":"GEONAMES",
+		"url":"http://www.geonames.org/",
+		"ratings":{
+			"nonprofit":{
+				"rating":"",
+				"rationale":""
+			},
+			"commercial":{
+				"rating":"",
+				"rationale":""
+			},
+			"modify":{
+				"rating":"",
+				"rationale":""
+			},
+			"redistribute":{
+				"rating":"",
+				"rationale":""
+			},
+			"ids":{
+				"rating":"",
+				"rationale":""
+			},
+			"versions":{
+				"rating":"",
+				"rationale":""
+			},
+			"contribute":{
+				"rating":"good",
+				"rationale":"Users can easily add new locations to the database. Anecdotally it is apparently harder to suggest changes to existing records. (Further research needed)."
+			},
+			"boundaries":{
+				"rating":"needs improvement",
+				"rationale":"Currently only provides centroid poitns for administrative divisions, not spatial boundaries."
+			},
+			"format":{
+				"rating":"good",
+				"rationale":"Data are provided in XML (API) or CSV (download)."
+			}
+		}
+	},
+	{
+		"name":"OpenStreetMap",
+		"url":"http://www.openstreetmap.org/",
+		"ratings":{
+			"nonprofit":{
+				"rating":"",
+				"rationale":""
+			},
+			"commercial":{
+				"rating":"",
+				"rationale":""
+			},
+			"modify":{
+				"rating":"",
+				"rationale":""
+			},
+			"redistribute":{
+				"rating":"",
+				"rationale":""
+			},
+			"ids":{
+				"rating":"",
+				"rationale":""
+			},
+			"versions":{
+				"rating":"",
+				"rationale":""
+			},
+			"contribute":{
+				"rating":"",
+				"rationale":""
+			},
+			"boundaries":{
+				"rating":"",
+				"rationale":""
+			},
+			"format":{
+				"rating":"",
+				"rationale":""
+			}
+		}
+	},
+	{
+		"name":"Natural Earth",
+		"url":"http://www.naturalearthdata.com/",
+		"ratings":{
+			"nonprofit":{
+				"rating":"",
+				"rationale":""
+			},
+			"commercial":{
+				"rating":"",
+				"rationale":""
+			},
+			"modify":{
+				"rating":"",
+				"rationale":""
+			},
+			"redistribute":{
+				"rating":"",
+				"rationale":""
+			},
+			"ids":{
+				"rating":"",
+				"rationale":""
+			},
+			"versions":{
+				"rating":"",
+				"rationale":""
+			},
+			"contribute":{
+				"rating":"",
+				"rationale":""
+			},
+			"boundaries":{
+				"rating":"",
+				"rationale":""
+			},
+			"format":{
+				"rating":"",
+				"rationale":""
 			}
 		}
 	}

@@ -8,6 +8,40 @@
 		"principle":"The dataset should be freely available for commerical use to any user, without the need to request permission from the distributor.",
 		"shortTitle": "Commerical Use",
 		"importance":"Commerical users create some of the most dynamic and value-creating applications from geographic data (e.g. Google Maps/Directions, Yelp, Foursquare, etc.) - limiting commerical access to boundary data prevents all members of society from benefiting from these types of creations. Limiting commerical access also prevents consulting firms from gaining profit by using the data, even when building applications for governments and non-profit agencies."
+	},
+	"modify":{
+		"principle":"Users of the dataset should be able to modify the dataset without restriction.",
+		"shortTitle":"Modification",
+		"importance":"Users of spatial data frequently need to make modifications to those data. For instance, users often need to correct topological errors, simplify boundaries for use in web applications, or merge multiple datasets based on quality of their regional data. Disallowing this type of modification limits the utility of a dataset."
+	},
+	"redistribute":{
+		"principle":"Users of the dataset should be able to redistribute the dataset, or derivative products of the dataset, without restriction.",
+		"shortTitle":"Redistribution",
+		"importance":"A vibrant open data ecosystem relies on the ability of users to share data, and their derivative products, openly. This type of sharing creates the possibility for competition in creating/curatingthe best versions of datasets, and makes the ecosystem more resilient to the risk of one publisher ceasing distribution of data."
+	},
+	"ids":{
+		"principle":"Distinct geographic entities (e.g. districts, regions, countries, etc.) should have globally unique IDs within the dataset, and those IDs should be persisted between dataset versions if their respective entities continue to exist.",
+		"shortTitle":"Unique IDs",
+		"importance":""
+	},
+	"versions":{
+		"principle":"The dataset should have a revision process and releases should be clearly versioned. Users should be able to easily access all historical versions.",
+		"shortTitle":"Versioning",
+		"importance":""
+	},
+	"contribute":{
+		"principle":"The dataset should be managed in a way that allows users of the dataset to be able to contributes suggestions (e.g. comments) and improvements (e.g. pull requests) based on their own experience.",
+		"shortTitle":"User Input",
+		"importance":""
+	},
+	"boundaries":{
+		"principle":"The dataset should provide actual boundary data. Many datasets of sub-national adminsitrative areas provide curated lists with unique IDs (and possible centroid coordinates) but do not provide the actual boundaries",
+		"shortTitle":"Boundary Coordinates",
+		"importance":""
+	},
+	"format":{
+		"principle":"The data and metadata should be provided in an open data format, such as GML, CSV, or GeoJSON. Providing data in a proprietary format such as SHP is ok as well, as long as the equivalent data are also provided in an open format.",
+		"shortTitle":"Open Format",
+		"importance":""
 	}
-
 }
