@@ -172,39 +172,39 @@
 		"url":"http://www.openstreetmap.org/",
 		"ratings":{
 			"nonprofit":{
-				"rating":"",
+				"rating":"good",
 				"rationale":""
 			},
 			"commercial":{
-				"rating":"",
+				"rating":"good",
 				"rationale":""
 			},
 			"modify":{
-				"rating":"",
+				"rating":"good",
 				"rationale":""
 			},
 			"redistribute":{
-				"rating":"",
+				"rating":"good",
 				"rationale":""
 			},
 			"ids":{
-				"rating":"",
+				"rating":"good",
 				"rationale":""
 			},
 			"versions":{
-				"rating":"",
+				"rating":"good",
 				"rationale":""
 			},
 			"contribute":{
-				"rating":"",
+				"rating":"good",
 				"rationale":""
 			},
 			"boundaries":{
-				"rating":"",
+				"rating":"good",
 				"rationale":""
 			},
 			"format":{
-				"rating":"",
+				"rating":"good",
 				"rationale":""
 			}
 		}
