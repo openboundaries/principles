@@ -5,11 +5,11 @@
 		"ratings": {
 			"nonprofit":{
 				"rating": "good",
-				"rationale": ""
+				"rationale": "License agreement allows non-commercial use."
 			},
 			"commercial": {
 				"rating": "needs improvement",
-				"rationale": "License agreement forbigs commerical use."
+				"rationale": "License agreement forbids commerical use."
 			},
 			"redistrib": {
 				"rating": "needs improvement",
