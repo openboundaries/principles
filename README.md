@@ -5,6 +5,13 @@
 - still need to work on the principles themselves
 - if you are interested in working on this, shoot me a note and i'll add you as a collaborator
 
+##Testing Modifications to JSON Files
+
+Before committing changes to the JSON files, you should ideally test them to make sure the structure is correct. In the repo's root folder:
+
+    $ npm install
+    $ npm test
+
 ##TODO
 
 - come up with a good draft set of principles

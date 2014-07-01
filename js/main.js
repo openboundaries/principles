@@ -28,8 +28,9 @@ loadJson('./data/criteria.json', function(criteria) {
 		tableHeaderRow.appendTo(ratingTable);
 
 		//append list of sources and their respective ratings to table
-		_.each(sources, function(source) {
-			var row = $('<tr></tr>');
+		_.each(_.keys(sources), function(s) {
+			var row = $('<tr></tr>'),
+				source = sources[s];
 			row.append(sourceTitleTemplate(source));
 			_.each(criteriaKeys, function(key) {
 				if (source.ratings[key]) {

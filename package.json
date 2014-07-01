@@ -1,0 +1,28 @@
+{
+  "name": "open-boundaries",
+  "version": "0.0.1",
+  "description": "Website for Open Boundaries",
+  "main": " ",
+  "scripts": {
+    "test": "node test/validate.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openboundaries/principles"
+  },
+  "keywords": [
+    "open",
+    "boundaries",
+    "adm"
+  ],
+  "author": "Open Boundaries",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/openboundaries/principles/issues"
+  },
+  "dependencies": {
+    "underscore": "~1.6.0",
+    "tape": "~2.13.3",
+    "tap-spec": "~0.2.0"
+  }
+}
