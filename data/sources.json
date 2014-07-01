@@ -1,44 +1,87 @@
 {
+	"ex":
+		{
+			"name":"Example",
+			"url":"#",
+			"ratings": {
+				"nonprofit":{
+					"rating": "good",
+					"rationale": "Rationale for 'good' rating would be here."
+				},
+				"commercial": {
+					"rating": "needs improvement",
+					"rationale": "Rationale for 'needs improvement' rating would be here."
+				},
+				"modify":{
+					"rating":"needs improvement",
+					"rationale":"Rationale for 'needs improvement' rating would be here."
+				},
+				"redistribute": {
+					"rating": "needs improvement",
+					"rationale": "Rationale for 'needs improvement' rating would be here."
+				},
+				"ids":{
+					"rating":"ok",
+					"rationale":"Rationale for 'ok' rating would be here."
+				},
+				"versions":{
+					"rating":"ok",
+					"rationale":"Rationale for 'ok' rating would be here."
+				},
+				"contribute":{
+					"rating":"ok",
+					"rationale":"Rationale for 'ok' rating would be here."
+				},
+				"boundaries":{
+					"rating":"good",
+					"rationale":"Rationale for 'good' rating would be here."
+				},
+				"format":{
+					"rating":"ok",
+					"rationale":"Rationale for 'ok' rating would be here."
+				}
+			}
+		},
 	"gadm":
 		{
 			"name":"GADM",
 			"url":"http://www.gadm.org/",
 			"ratings": {
 				"nonprofit":{
-					"rating": "good",
-					"rationale": "License agreement allows non-commercial use."
+					"rating": "",
+					"rationale": ""
 				},
 				"commercial": {
-					"rating": "needs improvement",
-					"rationale": "License agreement forbids commerical use."
+					"rating": "",
+					"rationale": ""
 				},
 				"modify":{
-					"rating":"needs improvement",
-					"rationale":"License agreement forbids modification."
+					"rating":"",
+					"rationale":""
 				},
 				"redistribute": {
-					"rating": "needs improvement",
-					"rationale": "License agreement forbids redistribution."
+					"rating": "",
+					"rationale": ""
 				},
 				"ids":{
-					"rating":"ok",
-					"rationale":"Distributed with unique feature IDs, but unclear if these are consistent across versions or are an artifact of the data creation process (further research needed)."
+					"rating":"",
+					"rationale":""
 				},
 				"versions":{
-					"rating":"ok",
-					"rationale":"Versions released regularly with good change notes, but no clear access to historical versions."
+					"rating":"",
+					"rationale":""
 				},
 				"contribute":{
-					"rating":"ok",
-					"rationale":"Anecdotally the publisher is very open to suggested changes, but no clearly articulated process exists (further research needed)."
+					"rating":"",
+					"rationale":""
 				},
 				"boundaries":{
-					"rating":"good",
-					"rationale":"The boundary data are provided for each adminsitrative area."
+					"rating":"",
+					"rationale":""
 				},
 				"format":{
-					"rating":"ok",
-					"rationale":"Not actually sure. Mostly available in ESRI formats but also R and KML. Do R and KML count as an open format? Do we want to have 'preferred' open formats? (further research clearly needed)."
+					"rating":"",
+					"rationale":""
 				}
 			}
 		},
@@ -103,8 +146,8 @@
 					"rationale":""
 				},
 				"redistribute":{
-					"rating":"needs improvement",
-					"rationale":"Users do not have the right to redistribute and the current website is permanently down. Showcases why redistribution rights are important!"
+					"rating":"",
+					"rationale":""
 				},
 				"ids":{
 					"rating":"",
@@ -158,16 +201,16 @@
 					"rationale":""
 				},
 				"contribute":{
-					"rating":"good",
-					"rationale":"Users can easily add new locations to the database. Anecdotally it is apparently harder to suggest changes to existing records. (Further research needed)."
+					"rating":"",
+					"rationale":""
 				},
 				"boundaries":{
-					"rating":"needs improvement",
-					"rationale":"Currently only provides centroid poitns for administrative divisions, not spatial boundaries."
+					"rating":"",
+					"rationale":""
 				},
 				"format":{
-					"rating":"good",
-					"rationale":"Data are provided in XML (API) or CSV (download)."
+					"rating":"",
+					"rationale":""
 				}
 			}
 		},
